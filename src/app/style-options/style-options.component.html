@@ -1,0 +1,7 @@
+<div class="accessorize-container">
+    <a class="button" 
+    *ngFor="let option of options"
+    (click)="selectOption(option)"
+    [ngClass]="{'active':option === selectedOption }"
+    >{{ option | titlecase}}</a>
+</div>

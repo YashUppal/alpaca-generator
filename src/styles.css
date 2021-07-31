@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+
+html {
+    background-color: rgb(238 236 238);
+}
+
+.active{
+    background-color: rgb(35 80 156);
+    color: rgb(161 184 220);
+}
+
+* {
+    font-family: 'Barlow';    
+    text-decoration: none;
+}
+
+.preview {
+    width: 480px;
+    height: 480px;
+    background: gray;
+}
+
+.preview > img {
+    position: absolute;
+    height: 480px;
+    width: 480px; 
+}
+
+.accessorize-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0px 20px 0px;
+}
+
+.accessorize-container > a {
+    border: 2px solid rgb(161 184 220);
+    border-radius: 48px;
+    padding: 15px 25px 15px 25px;
+    color: rgb(161 184 220);
+    margin: 10px 10px 0px 0px;;
+    cursor: pointer;
+}
+
+.accessorize-container > a:focus {
+    border: 1px solid rgb(161 184 220);
+    border-radius: 48px;
+    padding: 15px 25px 15px 25px;
+    color: rgb(161 184 220);
+    /* margin: 0; */
+    cursor: pointer;
+}
+
+a:focus {
+    background: rgb(238 236 238);
+    cursor: pointer;
+}
+
+.button {
+    border: 1px solid rgb(161 184 220);
+    border-radius: 48px;
+    padding: 5px 20px 5px 20px;
+    margin: 20px 0px 0px 0px;
+    color: rgb(161 184 220);
+    font-weight: 700;
+}
+
+.button:focus {
+    background-color: rgb(35 80 156);
+    color: rgb(238 236 238);
+    cursor: pointer;
+}
+
+h2{
+    padding: none;
+    margin: 0px 0px 0px 0px;
+}
+
+h1 { 
+    margin: 0px 0px 0px 100px;
+    font-size: 4em;
+}
+
+.feature{
+    width: 200px;
+    padding: 10px 5px 10px 5px;
+    font-weight: 700;
+    border: none;
+    background: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1000px) {
+    .main-container {
+        display: flex;
+        padding: 20px 100px 0px 100px;
+    }
+
+    .buttons {
+        /* padding: 0px 100px 100px 100px; */
+        padding: 0px 0px 0px 40px;
+        margin: 0px;
+    }
+
+    .button {
+        margin-right: 10px;
+    }
+}
