@@ -151,6 +151,24 @@ h1 {
     padding: 0px 0px 0px 40px;
     margin: 20px 0px 0px 0px;
 }
+
+.accessorize-container > a {
+    border: 2px solid rgb(161 184 220);
+    border-radius: 48px;
+    padding: 5px 15px 5px 15px;
+    color: rgb(161 184 220);
+    margin: 10px 10px 0px 0px;;
+    cursor: pointer;
+}
+
+.accessorize-container > a:focus {
+    border: 1px solid rgb(161 184 220);
+    border-radius: 48px;
+    padding: 5px 15px 5px 15px;
+    color: rgb(161 184 220);
+    /* margin: 0; */
+    cursor: pointer;
+}
 }
 
 
