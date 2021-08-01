@@ -4,6 +4,10 @@ html {
     background-color: rgb(238 236 238);
 }
 
+.small {
+    font-size: 10px;
+}
+
 .active{
     background-color: rgb(35 80 156);
     color: rgb(161 184 220);
@@ -90,19 +94,63 @@ h1 {
     cursor: pointer;
 }
 
-@media screen and (min-width: 1000px) {
-    .main-container {
-        display: flex;
-        padding: 20px 100px 0px 100px;
-    }
-
-    .buttons {
-        /* padding: 0px 100px 100px 100px; */
-        padding: 0px 0px 0px 40px;
-        margin: 0px;
-    }
-
-    .button {
-        margin-right: 10px;
-    }
+.main-container {
+    display: flex;
+    /* flex-direction: column; */
+    padding: 20px 10px 0px 100px;
 }
+.buttons {
+    /* padding: 0px 100px 100px 100px; */
+    padding: 0px 0px 0px 40px;
+    margin: 0px;
+}
+
+.button {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+h1 {
+    font-size: 50px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.preview {
+    width: 300px;
+    height: 300px;
+    background: gray;
+}
+
+.preview > img {
+    position: absolute;
+    height: 300px;
+    width: 300px; 
+}
+
+.feature{
+    width: 140px;
+    padding: 10px 5px 10px 5px;
+    font-weight: 700;
+    border: none;
+    background: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.buttons {
+    /* padding: 0px 100px 100px 100px; */
+    padding: 0px 0px 0px 40px;
+    margin: 20px 0px 0px 0px;
+}
+}
+
+
