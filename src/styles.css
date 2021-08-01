@@ -52,6 +52,7 @@ html {
     color: rgb(161 184 220);
     /* margin: 0; */
     cursor: pointer;
+    outline: 0;
 }
 
 a:focus {
@@ -168,6 +169,7 @@ h1 {
     color: rgb(161 184 220);
     /* margin: 0; */
     cursor: pointer;
+    outline: 0;
 }
 }
 
